@@ -52,13 +52,19 @@ git clone [https://github.com/YOUR-USERNAME/diem-virtual-assistant.git](https://
 cd diem-virtual-assistant
 ```
 
-### 2. Prepare the Directory Structure
+### 2. Prepare the Database
+Since the database files are large, they are hosted in the **Releases** section of this repository.
+1. Go to the [Releases page](https://github.com/mschiare/diem-virtual-assistant/releases).
+2. Download the latest `qdrant_db.zip` file.
+3. Extract the contents into the project root directory, so that the `qdrant_db/` folder is at the same level as the `notebooks/` folder.
+
+### 3. Prepare the Directory Structure
 Ensure you create a folder named `qdrant_db` in the root directory and place your pre-populated Qdrant database files there. Your root folder must look like this:
 * `metadata_manifest/` (contains your JSON configuration files)
 * `notebooks/` (contains `chatbot.ipynb`)
 * `qdrant_db/` (contains your local vector database files)
 
-### 3. Create and Activate a Virtual Environment
+### 4. Create and Activate a Virtual Environment
 It is highly recommended to isolate the project dependencies using a virtual environment:
 ```bash
 # Create the environment
@@ -71,13 +77,13 @@ source chatbot_env/bin/activate
 chatbot_env\Scripts\activate
 ```
 
-### 4. Install Dependencies
+### 5. Install Dependencies
 Install all the required frameworks, including LangChain, LangGraph, Gradio, and Qdrant drivers:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Install and Run Ollama
+### 6. Install and Run Ollama
 The architecture relies entirely on local model execution via Ollama. 
 1. Download and install Ollama from [ollama.com](https://ollama.com/).
 2. Pull the **Qwen3 14B** model by running the following command in your terminal:
@@ -86,7 +92,7 @@ ollama run qwen3:14b
 ```
 Keep the Ollama application running in the background.
 
-### 6. Launch the Assistant
+### 7. Launch the Assistant
 Open the main application notebook and execute the cells to start the web interface:
 ```bash
 jupyter notebook notebooks/chatbot.ipynb
