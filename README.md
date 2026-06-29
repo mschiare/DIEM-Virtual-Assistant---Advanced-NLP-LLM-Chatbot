@@ -54,7 +54,7 @@ cd diem-virtual-assistant
 
 ### 2. Prepare the Database
 Since the database files are large, they are hosted in the **Releases** section of this repository.
-1. Go to the [Releases page](https://github.com/mschiare/DIEM-Virtual-Assistant---Advanced-NLP-LLM-Chatbot/releases/new).
+1. Go to the [Releases page](https://github.com/mschiare/DIEM-Virtual-Assistant---Advanced-NLP-LLM-Chatbot/releases/tag/v1.0).
 2. Download the latest `qdrant_db.zip` file.
 3. Extract the contents into the project root directory, so that the `qdrant_db/` folder is at the same level as the `notebooks/` folder.
 
