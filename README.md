@@ -34,3 +34,75 @@ diem-virtual-assistant/
 ├── qdrant_db/                 
 ├── .gitignore                 # Specifies intentionally untracked files
 └── README.md
+
+## ⚙️ Setup and Installation
+
+Follow these steps to configure and run the virtual assistant locally on your machine.
+
+### 1. Clone the Repository
+Clone this repository to your local directory and navigate into the project folder:
+~~~bash
+git clone https://github.com/YOUR-USERNAME/diem-virtual-assistant.git
+cd diem-virtual-assistant
+~~~
+
+### 2. Prepare the Directory Structure
+Ensure you create a folder named `qdrant_db` in the root directory and place your pre-populated Qdrant database files there. Your root folder must look like this:
+* `metadata_manifest/` (contains your JSON configuration files)
+* `notebooks/` (contains `chatbot.ipynb`)
+* `qdrant_db/` (contains your local vector database files)
+
+### 3. Create and Activate a Virtual Environment
+It is highly recommended to isolate the project dependencies using a virtual environment:
+~~~bash
+# Create the environment
+python3 -m venv chatbot_env
+
+# Activate it (Mac/Linux)
+source chatbot_env/bin/activate
+
+# Activate it (Windows)
+chatbot_env\Scripts\activate
+~~~
+
+### 4. Install Dependencies
+Install all the required frameworks, including LangChain, LangGraph, Gradio, and Qdrant drivers:
+~~~bash
+pip install -r requirements.txt
+~~~
+
+### 5. Install and Run Ollama
+The architecture relies entirely on local model execution via Ollama. 
+1. Download and install Ollama from [ollama.com](https://ollama.com/).
+2. Pull the **Qwen3 14B** model by running the following command in your terminal:
+~~~bash
+ollama run qwen3:14b
+~~~
+Keep the Ollama application running in the background.
+
+### 6. Launch the Assistant
+Open the main application notebook and execute the cells to start the web interface:
+~~~bash
+jupyter notebook notebooks/chatbot.ipynb
+~~~
+Once the cells are executed, Gradio will generate a local URL (e.g., `http://127.0.0.1:7860`). Open it in your browser to interact with the chatbot!
+
+---
+
+## 🤖 System Architecture & Flow
+
+The chatbot is built using an **Agentic Workflow** driven by **LangGraph**. When a query enters the system, it goes through a coordinated multi-node routing system:
+
+1. **Planner / Classifier Node:** The input query is analyzed, reformulated for better semantic retrieval, and classified into one of the specialized manifest categories.
+2. **Retrieval & Reranking Node:** Relevant contexts are extracted from the local **Qdrant** collection using metadata filters. The retrieved documents are then filtered through **FlashRank** to select only the top relevant chunks.
+3. **Synthesis Node:** The local `qwen3:14b` model processes the context and the user query to build a comprehensive answer.
+4. **Critic Node:** A dedicated evaluation guardrail checks the answer for hallucinations, factual accuracy, and completeness before returning it to the user.
+
+---
+
+## 👩‍💻 Author
+
+Developed by **[Your Name]** Master's Degree Candidate in Computer Engineering for Artificial Intelligence  
+*Università degli Studi di Salerno (UNISA)* * **Focus:** Natural Language Processing (NLP), Large Language Models (LLMs), Machine Learning, AI for Cybersecurity.
+* **LinkedIn:** [Your LinkedIn Profile Link](#)
+* **GitHub:** [https://github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
