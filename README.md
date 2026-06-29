@@ -6,34 +6,40 @@ This project was developed as part of my Master's Degree in Computer Engineering
 
 ## 🚀 Features
 
-*   **Agentic Workflow (Plan-and-Execute):** Built with LangGraph, the chatbot analyzes the user's intent, breaks down complex queries into manageable tasks, selects the appropriate database collections, and evaluates its own answers (Critic Node) to ensure high accuracy.
-*   **Advanced Semantic Search:** Uses a local **Qdrant** Vector Database with metadata filtering capabilities to retrieve specific information about professors, international mobility, degree programs, and department news.
-*   **Structured Outputs:** Leverages Pydantic to force the LLM to output strictly formatted JSON for tool selection and query reformulation.
-*   **Degree Grade Calculator:** A built-in Gradio tool that simulates the final degree grade based on the student's current GPA and department regulations.
-*   **Privacy & Local Execution:** Runs entirely locally using **Ollama** (`qwen3:14b`), ensuring zero data leakage.
+* **Agentic Workflow (Plan-and-Execute):** Built with LangGraph, the chatbot analyzes the user's intent, breaks down complex queries into manageable tasks, selects the appropriate database collections, and evaluates its own answers (Critic Node) to ensure high accuracy.
+* **Advanced Semantic Search:** Uses a local **Qdrant** Vector Database with metadata filtering capabilities to retrieve specific information about professors, international mobility, degree programs, and department news.
+* **Structured Outputs:** Leverages Pydantic to force the LLM to output strictly formatted JSON for tool selection and query reformulation.
+* **Degree Grade Calculator:** A built-in Gradio tool that simulates the final degree grade based on the student's current GPA and department regulations.
+* **Privacy & Local Execution:** Runs entirely locally using **Ollama** (`qwen3:14b`), ensuring zero data leakage.
 
 ## 🛠️ Tech Stack
 
-*   **Frameworks:** LangChain, LangGraph
-*   **LLM:** Ollama (Qwen3:14b)
-*   **Embeddings:** HuggingFace (`BAAI/bge-m3`)
-*   **Vector Database:** Qdrant
-*   **Reranking:** FlashRank
-*   **User Interface:** Gradio
+* **Frameworks:** LangChain, LangGraph
+* **LLM:** Ollama (Qwen3:14b)
+* **Embeddings:** HuggingFace (`BAAI/bge-m3`)
+* **Vector Database:** Qdrant
+* **Reranking:** FlashRank
+* **User Interface:** Gradio
+
+## ⚠️ Repository Scope (Note on Data)
+
+> **Note:** This repository focuses exclusively on the **Inference Engine** and the **User Interface**. 
+> The modules related to web scraping, data chunking, and the generation of the Qdrant Vector Database have been intentionally omitted to keep the repository lightweight and to protect the department's raw scraped data. The code provided here assumes the existence of a pre-populated `qdrant_db` folder.
 
 ## 📂 Project Structure
 
-```text
+~~~text
 diem-virtual-assistant/
-├── notebooks/
-│   └── chatbot.ipynb          # Main application file (Agent logic + Gradio UI)
 ├── metadata_manifest/         # JSON files defining metadata rules for the LLM
 │   ├── manifest_docenti.json
 │   ├── manifest_bandi.json
 │   └── ...
-├── qdrant_db/                 
+├── notebooks/
+│   └── chatbot.ipynb          # Main application file (Agent logic + Gradio UI)
+├── qdrant_db/                 # Local Vector DB folder
 ├── .gitignore                 # Specifies intentionally untracked files
 └── README.md
+~~~
 
 ## ⚙️ Setup and Installation
 
@@ -100,9 +106,3 @@ The chatbot is built using an **Agentic Workflow** driven by **LangGraph**. When
 
 ---
 
-## 👩‍💻 Author
-
-Developed by **[Your Name]** Master's Degree Candidate in Computer Engineering for Artificial Intelligence  
-*Università degli Studi di Salerno (UNISA)* * **Focus:** Natural Language Processing (NLP), Large Language Models (LLMs), Machine Learning, AI for Cybersecurity.
-* **LinkedIn:** [Your LinkedIn Profile Link](#)
-* **GitHub:** [https://github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
