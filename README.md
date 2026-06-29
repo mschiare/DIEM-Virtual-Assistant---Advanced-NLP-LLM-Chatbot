@@ -48,18 +48,22 @@ Follow these steps to configure and run the virtual assistant locally on your ma
 ### 1. Clone the Repository
 Clone this repository to your local directory and navigate into the project folder:
 ```bash
-git clone [https://github.com/mschiare/diem-virtual-assistant.git](https://github.com/mschiare/diem-virtual-assistant.git)
-cd diem-virtual-assistant
+git clone https://github.com/mschiare/DIEM-Virtual-Assistant---Advanced-NLP-LLM-Chatbot.git
+
+cd DIEM-Virtual-Assistant---Advanced-NLP-LLM-Chatbot
 ```
 
-### 2. Prepare the Database
-Since the database files are large, they are hosted in the **Releases** section of this repository.
+### 2. Download the Pre-built Vector Database
+The repository does not include the vector database files.
+After cloning the repository, download the pre-built `qdrant_db.zip`
+from the Releases section and extract it into the project root directory.
+
 1. Go to the [Releases page](https://github.com/mschiare/DIEM-Virtual-Assistant---Advanced-NLP-LLM-Chatbot/releases/tag/v1.0).
 2. Download the latest `qdrant_db.zip` file.
 3. Extract the contents into the project root directory, so that the `qdrant_db/` folder is at the same level as the `notebooks/` folder.
 
 ### 3. Prepare the Directory Structure
-Ensure you create a folder named `qdrant_db` in the root directory and place your pre-populated Qdrant database files there. Your root folder must look like this:
+Your root folder must look like this:
 * `metadata_manifest/` (contains your JSON configuration files)
 * `notebooks/` (contains `chatbot.ipynb`)
 * `qdrant_db/` (contains your local vector database files)
