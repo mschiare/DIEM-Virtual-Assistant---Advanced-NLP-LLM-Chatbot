@@ -1,0 +1,43 @@
+{
+    "descrizione": "Il campo title deve contenere il titolo del progetto richiesto, solo se nella query e presente uno specifico progetto di alternanza scuola lavoro. Il campo year deve contenere l'anno o anno accademico specificato. Il campo state deve contenere attivo se l'utente ti chiede i progetti attivi, altrimenti scaduto. Nelle keywords inserisci parole importanti presenti o chiaramente richieste nella query, anche se gia usate negli altri campi. Se un campo del manifest non e ricavabile dalla query non compilarlo.",
+    "valori_filtro_unici": {
+        "title": [
+            "digitalmedicinecup@school 2026",
+            "robotcup@school 2026",
+            "digitalmedicinecup@school 2025",
+            "robotcup@school 2025",
+            "robotcup@school 2021",
+            "robotcup@school 2023",
+            "robotcup@school 2022",
+            "robotcup@school 2024"
+        ],
+        "year": [
+            "2026",
+            "2025/2026",
+            "2025",
+            "2023/2024",
+            "2021/2022",
+            "2024/2025",
+            "2024",
+            "2022/2023"
+        ],
+        "state": [
+            "attivo",
+            "scaduto"
+        ],
+        "keywords": [
+            "pcto",
+            "fsl",
+            "formazione scuola lavoro",
+            "convenzione",
+            "robotcup@school",
+            "digitalmedicinecup@school",
+            "microsoft teams",
+            "materiale didattico",
+            "orientamentodiem@unisa.it",
+            "scuole superiori",
+            "2026",
+            "2019"
+        ]
+    }
+}

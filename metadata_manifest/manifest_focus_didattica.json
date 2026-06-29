@@ -1,0 +1,41 @@
+{
+  "descrizione": "usa livello, corso e curriculum solo quando la query indica esplicitamente uno dei valori ammessi. usa keywords per concetti utili presenti nella query, senza inventare sinonimi non pertinenti. se un campo non e presente nella query non compilarlo.",
+  "valori_filtro_unici": {
+    "livello": [
+      "triennale",
+      "magistrale",
+      "dottorato"
+    ],
+    "corso": [
+      "ingegneria informatica",
+      "ingegneria dell'informazione per la medicina digitale",
+      "digital energy"
+    ],
+    "curriculum": [
+      "cybersecurity",
+      "artificial intelligence",
+      "sistemi embedded",
+      "enterprise software architecture"
+    ],
+    "keywords": [
+      "tutorato",
+      "academy diem",
+      "percorso di eccellenza",
+      "swift app development bootcamp",
+      "eur-ace",
+      "immatricolazione",
+      "tolc",
+      "erasmus",
+      "doppio titolo",
+      "sbocchi professionali",
+      "orientamento",
+      "offerta didattica",
+      "ai generativa",
+      "privacy",
+      "robotica intelligente",
+      "piani di studio",
+      "test di accesso",
+      "almalaurea"
+    ]
+  }
+}

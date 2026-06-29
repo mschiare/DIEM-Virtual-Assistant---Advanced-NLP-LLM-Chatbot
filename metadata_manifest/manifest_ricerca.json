@@ -1,0 +1,25 @@
+{
+  "descrizione": "usa questi campi per interpretare una query riguardo la ricerca. compila keywords solo con termini esplicitamente presenti nella query. compila research_area con un'area tematica di ricerca se presente nella query; compila project_period quando la query contiene un anno, un intervallo di anni o date di riferimento; mantieni il formato del database. se un campo non e presente nella query non compilarlo.",
+  "valori_filtro_unici": {
+    "keywords": [
+      "intelligenza artificiale",
+      "machine learning",
+      "premio miglior articolo",
+      "finanziamenti da bandi europei"
+    ],
+    "research_area": [
+      "informatica",
+      "matematica applicata",
+      "telecomunicazioni",
+      "robotica e automazione",
+      "energia e fotovoltaico"
+    ],
+    "project_period": [
+      "2024",
+      "2022",
+      "31 luglio 2023 - 31 luglio 2026",
+      "25 novembre 2024 - 25 novembre 2027",
+      "15 febbraio 2021 - 30 settembre 2024"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "descrizione": "usa nome_progetto, tipologia e responsabile solo quando la query indica esplicitamente un progetto, una tipologia o un docente responsabile. se un campo non e presente nella query non compilarlo. usa keywords per termini che riguardano la terza missione presenti nella query.",
+  "valori_filtro_unici": {
+    "nome_progetto": [
+      "i lincei per una nuova didattica nella scuola - sviluppare un pensiero critico ed etico",
+      "corso di matematica",
+      "cybersecurity ed identità digitale: innovazione per la protezione delle infrastrutture critiche",
+      "giornate signorini",
+      "la robotica intelligente",
+      "tavola rotonda sull'intelligenza artificiale",
+      "tim enterprise e unisa in dialogo sulle sfide del futuro",
+      "ai contro cybersecurity e ai per cybersecurity",
+      "un viaggio nell'intelligenza artificiale",
+      "aperitivo scientifico",
+      "robotics yesterday, today, tomorrow",
+      "giovedì dell'innovazione",
+      "robotcup@school & digitalmedicinecup@school",
+      "digitalmedicinecup@school 2023",
+      "robotcup@school 2023",
+      "laboratorio di sistemi embedded per la robotica e l'iot"
+    ],
+    "tipologia": [
+      "public engagement",
+      "brevetto",
+      "ricerca",
+      "spin-off",
+      "attività conto terzi - ricerca",
+      "attivita conto terzi"
+    ],
+    "responsabile": [
+      "mazzocca carlo",
+      "ritrovato pierluigi",
+      "percannella gennaro",
+      "saggese alessia",
+      "d'aniello giuseppe",
+      "vento mario",
+      "basile francesco",
+      "zamboni walter",
+      "tortorella francesco",
+      "carletti vincenzo",
+      "d'apice ciro",
+      "manzo rosanna",
+      "raiconi giancarlovento mario",
+      "tucci vincenzo"
+    ],
+    "keywords": [
+      "i lincei per una nuova didattica nella scuola - sviluppare un pensiero critico ed etico",
+      "2017-2018 - presente",
+      "ricerca",
+      "accademia dei lincei",
+      "corso di matematica",
+      "24 gennaio 2024 - 30 aprile 2024",
+      "brevetti",
+      "mostra italia dei brevetti",
+      "futuro remoto",
+      "1 dicembre 2024 - 31 gennaio 2025",
+      "22 ottobre 2024 - 22 ottobre 2024",
+      "11 ottobre 2024 - 11 ottobre 2024",
+      "tavola rotonda sull'intelligenza artificiale",
+      "tim enterprise e unisa in dialogo sulle sfide del futuro",
+      "ai contro cybersecurity e ai per cybersecurity"
+    ]
+  }
+}

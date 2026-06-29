@@ -1,0 +1,49 @@
+{
+    "descrizione": "Il campo commission deve contenere il nome della commissione o del consiglio didattico richiesto, solo se la query riguarda uno specifico organismo. Il campo membri deve contenere i nomi delle persone richieste o citate nella query. Nelle keywords inserisci parole importanti presenti o chiaramente richieste nella query, anche se gia usate negli altri campi. Se un campo non e ricavabile dalla query, non compilarlo.",
+    "valori_filtro_unici": {
+        "commission": [
+            "consiglio didattico",
+            "commissione didattica",
+            "commissione orari",
+            "commissione piani di studio",
+            "commissione tutorato didattico",
+            "commissione percorsi di eccellenza",
+            "commissione per l’orientamento in ingresso",
+            "commissione test ammissione lauree magistrali",
+            "commissione tesi laurea magistrale",
+            "commissione per il coordinamento dei programmi degli insegnamenti"
+        ],
+        "membri": [
+            "percannella gennaro",
+            "vento mario",
+            "greco antonio",
+            "saggese alessia",
+            "zampoli vittorio",
+            "foggia pasquale",
+            "tortorella francesco",
+            "albano giovannina",
+            "riccio giovanni",
+            "sessa giuseppe",
+            "guadagno liberata",
+            "spagnuolo giovanni",
+            "napoli ettore",
+            "ferrentino enrico"
+        ],
+        "keywords": [
+            "consiglio didattico",
+            "commissione didattica",
+            "piani di studio",
+            "orientamento",
+            "offerta formativa",
+            "tolc-i",
+            "sito web",
+            "commissione tutorato didattico",
+            "coordinatore",
+            "test tolc-i",
+            "calendario",
+            "studenti esteri",
+            "presidente",
+            "ordinamento didattico"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "descrizione": "usa titolo e data solo quando la query indica esplicitamente un evento o una data. se un campo non e presente nella query non compilarlo. usa keywords per categorie o termini degli eventi presenti nella query.",
+  "valori_filtro_unici": {
+    "titolo": [
+      "incontro di orientamento per le nuove matricole dei corsi triennali del diem",
+      "brave new threat: the rise of covert and side channels",
+      "towards the future of research in mathematics education: comparing the ideas of luis radford and anna sfard",
+      "evento di lancio robotcup@school e digitalmedicinecup@school 2025",
+      "seminario sul sistema operativo real-time chibios in collaborazione con stmicroelectronics",
+      "le giornate della terza missione - diem",
+      "intelligenza artificiale tra rischi e opportunità",
+      "robotcup@school | evento finale di premiazione",
+      "digitalmedicinecup@school | evento finale di premiazione",
+      "la lingua come strumento per insegnare le discipline"
+    ],
+    "data": [
+      "10 ottobre 2025 12:30-14:30",
+      "31 marzo 2025 15:00-16:00",
+      "dal 18 novembre 2024 15:00 al 22 novembre 2024",
+      "13 novembre 2024 15:00",
+      "dal 11 novembre 2024 12:30 al 14 novembre 2024",
+      "6 giugno 2024 9:30-13:00",
+      "30 maggio 2024 9:30",
+      "3 maggio 2024",
+      "12 dicembre 2019 15:30-18:30"
+    ],
+    "keywords": [
+      "incontro di orientamento per le nuove matricole dei corsi triennali del diem",
+      "presentazioni e incontri",
+      "brave new threat: the rise of covert and side channels",
+      "seminari e convegni",
+      "towards the future of research in mathematics education: comparing the ideas of luis radford and anna sfard",
+      "evento di lancio robotcup@school e digitalmedicinecup@school 2025",
+      "seminario sul sistema operativo real-time chibios in collaborazione con stmicroelectronics",
+      "le giornate della terza missione - diem",
+      "robotcup@school",
+      "digitalmedicinecup@school",
+      "diem",
+      "terza missione",
+      "intelligenza artificiale",
+      "mathematics education",
+      "chibios",
+      "stmicroelectronics"
+    ]
+  }
+}

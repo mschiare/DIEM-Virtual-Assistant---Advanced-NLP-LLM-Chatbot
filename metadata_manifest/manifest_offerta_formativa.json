@@ -1,0 +1,33 @@
+{
+  "descrizione": "usa questi campi per interpretare una query sull'offerta formativa. compila un campo solo quando la query contiene un valore esplicito per quel metadato, altrimenti non compilarlo.  course_type identifica il livello del percorso, va compilato solo se nella query è esplicitamente presente 'triennale', 'magistrale', o 'dottorato'. course_name deve essere riempito solo se la query contiene uno dei valori ammessi. Se la query contiene 'ingegneria informatica per la medicina digitale' course_name deve essere 'medicina digitale'. academic_year contiene anni accademici normalizzati come yyyy/yyyy e solo per annualita consecutive. keywords raccoglie concetti informativi presenti nella query.",
+  "valori_filtro_unici": {
+    "keywords": [
+      "piano di studi",
+      "cfu",
+      "prova finale",
+      "tirocinio",
+      "erasmus"
+    ],
+    "course_type": [
+      "triennale",
+      "magistrale",
+      "dottorato"
+    ],
+    "course_name": [
+      "ingegneria informatica",
+      "medicina digitale",
+      "energia digitale",
+      "photovoltaic"
+    ],
+    "academic_year": [
+      "2025/2026",
+      "2024/2025",
+      "2023/2024",
+      "2008/2009",
+      [
+        "2025/2026",
+        "2026/2027"
+      ]
+    ]
+  }
+}

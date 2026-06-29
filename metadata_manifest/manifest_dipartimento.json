@@ -1,0 +1,69 @@
+{
+    "descrizione": "Il campo commission deve contenere il nome della commissione o del gruppo richiesto, solo se la query riguarda uno specifico organismo. Il campo struttura deve contenere il nome specifico di una struttura, laboratorio, aula o centro; non usare valori generici come laboratorio o strutture. Il campo membri deve contenere i nomi delle persone richieste o citate nella query. Nelle keywords inserisci parole importanti presenti o chiaramente richieste nella query, anche se gia usate negli altri campi. Se un campo non e ricavabile dalla query, non compilarlo.",
+    "valori_filtro_unici": {
+        "commission": [
+            "commissione didattica",
+            "commissione ricerca, terza missione e valorizzazione della ricerca",
+            "gruppo assicurazione qualità dei corsi di studio (gaq-cds)",
+            "gruppo assicurazione qualità della formazione dottorale (gaq-phd)",
+            "gruppo assicurazione qualità del dipartimento (gaq-dip)"
+        ],
+        "struttura": [
+            "lcem",
+            "laboratorio di circuiti elettronici di potenza",
+            "laboratorio didattico informatica di base",
+            "laboratorio didattico sistemi",
+            "nclab",
+            "core",
+            "mivia",
+            "laboratorio teti",
+            "aula infografica",
+            "centro di calcolo e servizi di rete",
+            "core",
+            "inbit",
+            ["laboratorio", "laboratorio di embedded systems"],
+            "aula didattica di base",
+            "laboratorio di computazione naturale",
+            "energy storage and energy sources",
+            "knowmis",
+            ["laboratorio", "laboratorio di energy storage and energy sources", "eses"]
+        ],
+        "membri": [
+            "tortorella francesco",
+            "percannella gennaro",
+            "saggese alessia",
+            "spagnuolo giovanni",
+            "vento mario",
+            "foggia pasquale",
+            "tucci vincenzo",
+            "ahmed sheeraz",
+            "torre fabrizio",
+            "giovanni spagnuolo",
+            "adinolfi stefania",
+            "arshad ali",
+            "gaeta matteo",
+            "marotta giuseppe",
+            "bondar kateryna"
+        ],
+        "keywords": [
+            "strutture",
+            "laboratori",
+            "aule",
+            "diem",
+            "commissione didattica",
+            "terza missione",
+            "strumentazione",
+            "laboratorio",
+            "dipartimento di eccellenza",
+            "intelligenza artificiale",
+            "robotica",
+            "didattica",
+            "2025",
+            "computazione naturale",
+            "2023-2027",
+            "medicina digitale",
+            "2002",
+            "iot"
+        ]
+    }
+}
