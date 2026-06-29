@@ -116,9 +116,5 @@ The chatbot is built using an **Agentic Workflow** driven by **LangGraph**. When
 
 ---
 
-## 👩‍💻 Author
+<img width="492" height="337" alt="Screenshot 2026-06-29 alle 13 16 52" src="https://github.com/user-attachments/assets/30b7c0cd-5df4-49ac-a972-c411263d67a7" />
 
-Developed by **[Your Name]** Master's Degree Candidate in Computer Engineering for Artificial Intelligence  
-*Università degli Studi di Salerno (UNISA)* * **Focus:** Natural Language Processing (NLP), Large Language Models (LLMs), Machine Learning, AI for Cybersecurity.
-* **LinkedIn:** [Your LinkedIn Profile Link](#)
-* **GitHub:** [https://github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
