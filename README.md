@@ -31,6 +31,6 @@ diem-virtual-assistant/
 │   ├── manifest_docenti.json
 │   ├── manifest_bandi.json
 │   └── ...
-├── qdrant_db/                 # (Excluded from repo) Local Vector DB folder
+├── qdrant_db/                 
 ├── .gitignore                 # Specifies intentionally untracked files
 └── README.md
