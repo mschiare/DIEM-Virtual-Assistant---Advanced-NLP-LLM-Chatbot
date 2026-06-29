@@ -28,7 +28,7 @@ This project was developed as part of my Master's Degree in Computer Engineering
 
 ## 📂 Project Structure
 
-~~~text
+```text
 diem-virtual-assistant/
 ├── metadata_manifest/         # JSON files defining metadata rules for the LLM
 │   ├── manifest_docenti.json
@@ -39,7 +39,7 @@ diem-virtual-assistant/
 ├── qdrant_db/                 # Local Vector DB folder
 ├── .gitignore                 # Specifies intentionally untracked files
 └── README.md
-~~~
+```
 
 ## ⚙️ Setup and Installation
 
@@ -47,10 +47,10 @@ Follow these steps to configure and run the virtual assistant locally on your ma
 
 ### 1. Clone the Repository
 Clone this repository to your local directory and navigate into the project folder:
-~~~bash
-git clone https://github.com/YOUR-USERNAME/diem-virtual-assistant.git
+```bash
+git clone [https://github.com/YOUR-USERNAME/diem-virtual-assistant.git](https://github.com/YOUR-USERNAME/diem-virtual-assistant.git)
 cd diem-virtual-assistant
-~~~
+```
 
 ### 2. Prepare the Directory Structure
 Ensure you create a folder named `qdrant_db` in the root directory and place your pre-populated Qdrant database files there. Your root folder must look like this:
@@ -60,7 +60,7 @@ Ensure you create a folder named `qdrant_db` in the root directory and place you
 
 ### 3. Create and Activate a Virtual Environment
 It is highly recommended to isolate the project dependencies using a virtual environment:
-~~~bash
+```bash
 # Create the environment
 python3 -m venv chatbot_env
 
@@ -69,28 +69,28 @@ source chatbot_env/bin/activate
 
 # Activate it (Windows)
 chatbot_env\Scripts\activate
-~~~
+```
 
 ### 4. Install Dependencies
 Install all the required frameworks, including LangChain, LangGraph, Gradio, and Qdrant drivers:
-~~~bash
+```bash
 pip install -r requirements.txt
-~~~
+```
 
 ### 5. Install and Run Ollama
 The architecture relies entirely on local model execution via Ollama. 
 1. Download and install Ollama from [ollama.com](https://ollama.com/).
 2. Pull the **Qwen3 14B** model by running the following command in your terminal:
-~~~bash
+```bash
 ollama run qwen3:14b
-~~~
+```
 Keep the Ollama application running in the background.
 
 ### 6. Launch the Assistant
 Open the main application notebook and execute the cells to start the web interface:
-~~~bash
+```bash
 jupyter notebook notebooks/chatbot.ipynb
-~~~
+```
 Once the cells are executed, Gradio will generate a local URL (e.g., `http://127.0.0.1:7860`). Open it in your browser to interact with the chatbot!
 
 ---
@@ -106,3 +106,9 @@ The chatbot is built using an **Agentic Workflow** driven by **LangGraph**. When
 
 ---
 
+## 👩‍💻 Author
+
+Developed by **[Your Name]** Master's Degree Candidate in Computer Engineering for Artificial Intelligence  
+*Università degli Studi di Salerno (UNISA)* * **Focus:** Natural Language Processing (NLP), Large Language Models (LLMs), Machine Learning, AI for Cybersecurity.
+* **LinkedIn:** [Your LinkedIn Profile Link](#)
+* **GitHub:** [https://github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
