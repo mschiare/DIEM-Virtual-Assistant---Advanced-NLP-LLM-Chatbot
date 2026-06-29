@@ -48,7 +48,7 @@ Follow these steps to configure and run the virtual assistant locally on your ma
 ### 1. Clone the Repository
 Clone this repository to your local directory and navigate into the project folder:
 ```bash
-git clone [https://github.com/YOUR-USERNAME/diem-virtual-assistant.git](https://github.com/YOUR-USERNAME/diem-virtual-assistant.git)
+git clone [https://github.com/mschiare/diem-virtual-assistant.git](https://github.com/mschiare/diem-virtual-assistant.git)
 cd diem-virtual-assistant
 ```
 
