@@ -24,7 +24,7 @@ This project was developed as part of my Master's Degree in Computer Engineering
 ## ⚠️ Repository Scope (Note on Data)
 
 > **Note:** This repository focuses exclusively on the **Inference Engine** and the **User Interface**. 
-> The modules related to web scraping, data chunking, and the generation of the Qdrant Vector Database have been intentionally omitted to keep the repository lightweight and to protect the department's raw scraped data. The code provided here assumes the existence of a pre-populated `qdrant_db` folder.
+> The modules related to web scraping, data chunking, and the generation of the Qdrant Vector Database have been intentionally omitted to keep the repository lightweight and to protect the department's raw scraped data.
 
 ## 📂 Project Structure
 
